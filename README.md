@@ -31,7 +31,6 @@ property, and SwiftUI uses closures constantly.
 ```
 SE4041-Practical-03/
 ├── README.md
-├── .gitignore
 ├── Exercise01.swift
 ├── Exercise02.swift
 ├── Exercise03.swift
@@ -39,21 +38,8 @@ SE4041-Practical-03/
 ├── Exercise05.swift
 ├── Exercise06.swift
 ├── FinalChallenge.swift
-├── SE4041-Practical-03.playground/
-│   ├── contents.xcplayground
-│   └── Pages/                     one page per exercise
 └── screenshots/
 ```
-
-## Opening This in Xcode
-
-Double-click `SE4041-Practical-03.playground` to open the whole
-practical in Xcode. It contains one page per exercise, listed in the
-navigator on the left, and each page runs on its own.
-
-The same code is also saved as the individual `.swift` files listed in
-the submission requirements, at the root of this repository.
-
 
 ## What Each File Contains
 
