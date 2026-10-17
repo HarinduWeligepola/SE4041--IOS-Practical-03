@@ -32,16 +32,16 @@ property, and SwiftUI uses closures constantly.
 SE4041-Practical-03/
 ├── README.md
 ├── .gitignore
+├── Exercise01.swift
+├── Exercise02.swift
+├── Exercise03.swift
+├── Exercise04.swift
+├── Exercise05.swift
+├── Exercise06.swift
+├── FinalChallenge.swift
 ├── SE4041-Practical-03.playground/
 │   ├── contents.xcplayground
-│   └── Pages/
-│       ├── Exercise 01.xcplaygroundpage/
-│       ├── Exercise 02.xcplaygroundpage/
-│       ├── Exercise 03.xcplaygroundpage/
-│       ├── Exercise 04.xcplaygroundpage/
-│       ├── Exercise 05.xcplaygroundpage/
-│       ├── Exercise 06.xcplaygroundpage/
-│       └── Final Challenge.xcplaygroundpage/
+│   └── Pages/                     one page per exercise
 └── screenshots/
 ```
 
@@ -51,20 +51,23 @@ Double-click `SE4041-Practical-03.playground` to open the whole
 practical in Xcode. It contains one page per exercise, listed in the
 navigator on the left, and each page runs on its own.
 
+The same code is also saved as the individual `.swift` files listed in
+the submission requirements, at the root of this repository.
 
-## What Each Page Contains
 
-| Page | Topic |
+## What Each File Contains
+
+| File | Topic |
 |---|---|
-| Exercise 01 | Functions, parameters, return values, argument labels, default parameters, Activities 1 and 2 |
-| Exercise 02 | `guard` and early exit validation, Activity 3 |
-| Exercise 03 | Tuples, named tuple returns, tuple unpacking, Activity 4 |
-| Exercise 04 | Closures with `filter`, `map` and `reduce`, Activity 5 |
-| Exercise 05 | Enumerations, `switch` over an enum, raw values, Activity 6 |
-| Exercise 06 | Structs, computed properties, methods, `mutating`, classes, value vs reference types, knowledge check answers |
-| Final Challenge | Student Management System with the additional challenge |
+| `Exercise01.swift` | Functions, parameters, return values, argument labels, default parameters, Activities 1 and 2 |
+| `Exercise02.swift` | `guard` and early exit validation, Activity 3 |
+| `Exercise03.swift` | Tuples, named tuple returns, tuple unpacking, Activity 4 |
+| `Exercise04.swift` | Closures with `filter`, `map` and `reduce`, Activity 5 |
+| `Exercise05.swift` | Enumerations, `switch` over an enum, raw values, Activity 6 |
+| `Exercise06.swift` | Structs, computed properties, methods, `mutating`, classes, value vs reference types, knowledge check answers |
+| `FinalChallenge.swift` | Student Management System with the additional challenge |
 
-Where the lab sheet redefines the same type more than once, the pages
+Where the lab sheet redefines the same type more than once, the files
 keep a single clear version per name (for example `BasicStudent` for the
 memberwise initializer example and `Student` for the version with a
 computed grade and a method), so each file compiles without
