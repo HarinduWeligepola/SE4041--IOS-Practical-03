@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Xcode Playground user data
+*.playground/playground.xcworkspace/
+*.playground/timeline.xctimeline
+xcuserdata/
